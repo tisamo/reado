@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import {ToastContainer,toast,Zoom, Bounce} from "react-toastify";
 import App from './App';
+import 'react-toastify/dist/ReactToastify.css';
 import * as serviceWorker from './serviceWorker';
-
+import 'bootstrap/dist/css/bootstrap.css';
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+  <React.Fragment>
+    <App  />
+  </React.Fragment>,
   document.getElementById('root')
 );
 

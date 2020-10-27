@@ -1,0 +1,35 @@
+.todo {
+
+}
+.input-label{
+    color: white;
+}
+.title{
+    padding-top:1%;
+}
+Form{
+    padding-top: 5%;
+}
+.card{
+    background-color: black;
+}
+.color{
+    background-color: aqua;
+}
+.rotated-text{
+    display: table-cell;
+    vertical-align: middle;
+    transform:rotate(-90deg);
+}
+.table{
+    display:table;
+}
+.overflow{
+    overflow: auto;
+}
+.h-90{
+    height:95% !important;
+}
+.borders{
+
+}

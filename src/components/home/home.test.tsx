@@ -1,10 +1,10 @@
 import React from 'react';
 import {render} from '@testing-library/react';
 
-import Todo from './todo';
+import Home from './home';
 
 test('renders learn react link', () => {
-    const {getByText} = render(<Todo/>);
+    const {getByText} = render(<Home/>);
     const linkElement = getByText(/learn react/);
     expect(linkElement).toBeInTheDocument();
 });
